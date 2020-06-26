@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,600&display=swap');
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+
+}
+
+.nav-link {
+    font-size: 0.8em;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+#nav img {
+    width: 30px;
+    height: 30px;
+    border-radius: 10%;
+    margin: 30px;
+}
+
+#nav ul {
+    width: 80%;
+    margin: 0 0.5px;
+    border-radius: 1em;
+}
+
+#nav {
+    height: 80px;
+    padding-left: 140px;
+    font-weight: bold;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+hr {
+    width: 100%;
+    color: lightgrey;
+}
+
+section img {
+    width: 250px;
+    height: 200px;
+}
+
+#logo {
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5%;
+    border-radius: 0.5cm;
+}
+
+#logo div {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+    width: 100%;
+}
+
+
+#logo,
+h2 {
+    margin-bottom: 20px;
+}
+
+#logo h3,
+p {
+    width: 100%;
+    line-height: 10px;
+}
+
+#logo div article {
+    height: 300px;
+    width: 250px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#logo div article * {
+    padding: 0 5px;
+}
+
+#logo div article p {
+    padding: 0.1px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: x-small;
+}
+
+#logo div p {
+    padding-top: 0.1px;
+}
+
+.link-button {
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    border-radius: 150px;
+    padding: 9px 30px 9px;
+    border-color: whitesmoke;
+    font-size: 10px;
+    background-color: white;
+
+}
+
+#snap {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0px 0px 0px;
+    margin: 10px 0;
+    text-align: left;
+}
+
+#snap div {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 80;
+    width: 90%;
+    padding: 0 50px;
+
+}
+
+#snap ul {
+    list-style: none;
+    font-size: 1em;
+}
+
+#snap ul li {
+    margin: 10px 0;
+}
+
+
+#terms div {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    flex-direction: none;
+    list-style: none;
+}
+
+#terms div * {
+    padding: 0 170px;
+}
+
+
+h3 {
+    font-weight: 2em;
+}
+
+h1 {
+    font-weight: 5em;
+    font-size: 40px;
+}
